@@ -1,4 +1,12 @@
-# This is a placeholder class.
-class template {
-  anchor { 'Hello_World': }
+# Public: Install jq via homebrew
+#
+# Examples
+#
+#   include mosh
+class mosh {
+  if $::osfamily == 'Darwin' {
+    include homebrew
+  }
+
+  package { 'mosh': }
 }
