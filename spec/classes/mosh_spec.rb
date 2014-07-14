@@ -4,6 +4,6 @@ require 'spec_helper'
 # or read http://rspec-puppet.com/tutorial/
 describe 'mosh' do
   it do
-    should contain_package('mosh')
+    should contain_package('mobile-shell')
   end
 end

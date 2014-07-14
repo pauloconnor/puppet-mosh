@@ -8,5 +8,5 @@ class mosh {
     include homebrew
   }
 
-  package { 'mosh': }
+  package { 'mobile-shell': }
 }
